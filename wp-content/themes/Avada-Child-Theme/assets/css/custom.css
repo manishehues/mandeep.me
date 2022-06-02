@@ -313,7 +313,7 @@ p{
 /* ============Header=========== */
 
 .fusion-body .fusion-header-wrapper{
-    z-index: 9999999;
+    z-index: 9999999!important;
 }
 .fusion-body .fusion-header-wrapper .fusion-header .fusion-row{
     max-width:100%!important;;
