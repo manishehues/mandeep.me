@@ -60,9 +60,9 @@
         margin:0!important;
     }
 
-    #singlPortfolios.section{
+    /* #singlPortfolios.section{
         padding-top:0!important;
-    }
+    } */
 
     .FilterMenu .fusion-menu{
         max-width: calc(100% - 30px) !important;
@@ -105,11 +105,46 @@
 
     .internalBanner{
         min-height:50vh;
+        position: relative;
+        z-index: 99999;
     }
 
     .fusion-body .internalBanner .fusion-title h1.title-heading-center{
         font-size:65px!important;
         margin-bottom:0!important;
+    }
+
+    .internalBanner .fusion-menu-element-wrapper{
+        max-width:480px;
+        margin:auto;
+        margin-top:15px;
+        border:2px solid var(--primary-color);
+        box-shadow:4px 4px 0px var(--primary-color);        
+    }
+
+    .internalBanner .fusion-menu-element-wrapper button.avada-menu-mobile-menu-trigger{
+        width:100%;
+        padding:15px;
+        color:var(--primary-color);
+        background:var(--secondary-color)
+    }
+
+    .internalBanner .fusion-menu-element-wrapper .fusion-menu{
+        width:calc(100% + 4px)!important;
+        left:50%!important;
+        transform: translateX(-50%);
+        border:2px solid var(--primary-color);
+        z-index: 999999;
+        box-shadow:4px 4px 0px var(--primary-color);        
+    }
+    .internalBanner .fusion-menu-element-wrapper .fusion-menu li.menu-item{
+        border-width:2px!important;
+        border-color:var(--primary-color)!important
+    }
+
+    .internalBanner .fusion-menu-element-wrapper .fusion-menu li.menu-item a{
+        padding:8px 15px!important;
+        line-height:normal;        
     }
 }
 
@@ -131,7 +166,7 @@
         z-index: 999;
         width:100%;
         box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
-        
+        z-index: 99999;
     }
 
     .fusion-body .fusion-header-wrapper .fusion-header{
@@ -328,7 +363,7 @@
         height:100px!important;
     }
 
-    .form-group input.wpcf7-form-control,{
+    .form-group input.wpcf7-form-control{
         height:50px;
     }
 }
@@ -538,6 +573,11 @@
 
     .fusion-body .internalBanner .fusion-title h1.title-heading-center{
         font-size:55px!important
+    }
+
+    .internalBanner{
+        padding-left:50px!important;
+        padding-right:50px!important;
     }
     
 
