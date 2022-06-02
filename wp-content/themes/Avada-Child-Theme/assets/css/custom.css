@@ -281,6 +281,10 @@ p{
     margin-bottom:50px!important;
 }
 
+.entryContent p:last-child{
+    margin-bottom:0!important
+}
+
 .entryContent p a{
     font-weight:bold;
     color:var(--primary-alt-color);
@@ -322,7 +326,7 @@ p{
 }
 
 .fusion-header-wrapper.fusion-is-sticky .fusion-header{
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.15)
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
 }
 
 .fusion-header .fusion-main-menu > ul > li > a,
@@ -682,6 +686,10 @@ transition: all 0.3s ease;
 
 .footerArea.contactPage .contactEmails {
     padding-top:0!important;
+}
+
+.siteFooter .fusion-social-links{
+    margin-top:40px;
 }
 
 
